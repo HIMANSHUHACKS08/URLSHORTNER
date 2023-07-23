@@ -1,0 +1,103 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+        }
+body{
+        background-color:#212121e0;
+    }
+    .main{
+        position: relative;
+        height: 450px;
+        width: 350px;
+        bottom:-125px;
+        left:41%;
+        transform:translate(50% 50%);
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px rgb(137, 137, 224);
+        background:linear-gradient(to left,rgb(39, 52, 224),rgb(249, 26, 26));
+       
+    }
+    
+    #longurl {
+        position: relative;
+        top :30%;
+        left:12%;
+        height: 25px;
+        width: 250px;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-family: monospace;
+        font-weight: bold;
+
+    }
+    #shorturl {
+        position: relative;
+        top :40%;
+        left:12%;
+        height: 25px;
+        width: 250px;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    .main p{
+        position: relative;
+        top :25%;
+        left:14%;
+        height: 30px;
+        width: 400px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 38px;    }
+    #copy{
+        position: relative;
+        top :40%;
+        left:6px;
+        height: 20px;
+        width: 22px;
+        /*border: 2px solid black;*/
+        border-radius: 5px;
+        background-color: rgb(84, 225, 225);
+        /*forced-color-adjust:#1ef9f5db;*/
+        font-family: monospace;
+        font-weight: bold;
+        }
+    #copy:hover{
+        border-color: rgb(255, 21, 0);
+        background-color: rgb(0, 0, 0);
+        color: rgb(8, 229, 229)
+        transition:box-shadow 7s, border 3s,background 3s,color 3s;
+    }
+    #Shorten:hover{
+        border-color: rgb(255, 21, 0);
+        background-color: rgb(0, 0, 0);
+        color: rgb(8, 229, 229);
+    }
+        #Shorten{
+            position: relative;
+            top :38%;
+            right:35%;
+            height: 35px;
+            width: 70px;
+            /*border: 2px solid black;*/
+            border-radius: 5px;
+            padding-left: 5px;
+            background-color: rgb(84, 225, 225);
+            /*forced-color-adjust:#1ef9f5db;*/
+            font-family: monospace;
+            font-weight: bold;
+            }
+        #image{
+        height:80px;
+        width:350px;
+        top:8%;
+        object-fit: cover;
+        position:absolute;
+        background: rgb(0, 0, 0, 1);
+        }
+        
+        
